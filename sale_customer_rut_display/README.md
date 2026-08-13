@@ -17,10 +17,10 @@ El módulo se integra de forma transparente a la aplicación de Ventas:
 
 ## Capturas de pantalla
 **1. Vista Formulario (RUT del Cliente llenado automáticamente):**
-![Vista Formulario](capturas/captura1.png)
+![Vista Formulario](capturas_tarea1/captura1.png)
 
 **2. Vista Lista (Columna con el RUT del Cliente):**
-![Vista Lista](capturas/captura2.png)
+![Vista Lista](capturas_tarea1/captura2.png)
 
 **3. Filtro de Búsqueda (Búsqueda rápida por RUT):**
-![Filtro de Búsqueda](capturas/captura3.png)
+![Filtro de Búsqueda](capturas_tarea1/captura3.png)
