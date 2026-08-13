@@ -1,0 +1,25 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_pay_term
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-13 00:00+0000\n"
+"PO-Revision-Date: 2026-08-13 00:00+0000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: partner_pay_term
+#: model:ir.model.fields,field_description:partner_pay_term.field_res_partner__is_accounting_admin
+msgid "Es Admin de Contabilidad"
+msgstr ""
+
+#. module: partner_pay_term
+#: model:ir.model.fields,help:partner_pay_term.field_res_partner__is_accounting_admin
+msgid "Campo técnico para validar si el usuario tiene permisos de editar el término de pago."
+msgstr ""

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_partner_property_form_inherit_payment_term" model="ir.ui.view">
+        <field name="name">res.partner.property.form.inherit.payment.term</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="account.view_partner_property_form"/>
+        <field name="arch" type="xml">
+            <!-- Cargo el campo invisible aquí para poder usar la variable en la condición de más abajo -->
+            <xpath expr="//sheet" position="inside">
+                <field name="is_accounting_admin" invisible="1"/>
+            </xpath>
+            
+            <!-- Bloqueo el término de pago si el usuario no tiene el rol contable -->
+            <xpath expr="//field[@name='property_payment_term_id']" position="attributes">
+                <attribute name="readonly">not is_accounting_admin</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>
