@@ -18,10 +18,10 @@ Una vez instalado, el módulo opera de forma automática:
 
 ## Capturas de pantalla
 **1. Creación de cliente con "Pago inmediato":**
-![Pago Inmediato](capturas/captura1tarea2.png)
+![Pago Inmediato](capturas_tarea2/captura1tarea2.png)
 
-**2. Campo bloqueado para usuarios sin permisos:**
-![Campo Bloqueado](capturas/captura2tarea2.png)
+**2. Registro en Chatter de los cambios:**
+![Campo Bloqueado](capturas_tarea2/captura2tarea2.png)
 
-**3. Registro en Chatter de los cambios:**
-![Auditoria Chatter](capturas/captura3tarea2.png)
+**3. Campo bloqueado para usuarios sin permisos:**
+![Auditoria Chatter](capturas_tarea2/captura3tarea2.png)
